@@ -7,6 +7,16 @@ body {
     background-color: #84ACCE;
 }
 
+footer {
+    text-align: center;
+    display: block;
+    background-color: #b4ceeb;
+    box-shadow: 5px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em 2em;
+}
+
+/* Nav styles */
 .topnav ul {
     display: grid;
     grid-gap: 10px;
@@ -26,7 +36,11 @@ body {
     box-shadow: 5px 5px 5px;
 }
 
+.topnav a:hover {
+    background-color: bisque;
+}
 
+/* Products styles */
 .baits {
     display:grid;
     grid-gap:10px;
@@ -58,19 +72,12 @@ body {
     max-width: 100%;
 }
 
-footer {
-    text-align: center;
-    display: block;
-    background-color: #b4ceeb;
-    box-shadow: 5px 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2em 2em;
-}
 
 header img{
     max-width: 100%;
 }
 
+/* Home page styles */
 .basic {
     display: grid;
     grid-gap: 10px;
