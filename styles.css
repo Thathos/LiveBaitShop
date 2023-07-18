@@ -105,3 +105,18 @@ header img{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* media queries */
+@media(max-width:600px){
+    .topnav ul {
+        grid-template-columns: 1fr;
+    }
+
+    .basic {
+        grid-template-columns: 1fr;
+    }
+
+    .baits {
+        grid-template-columns: 1fr;
+    }
+}
